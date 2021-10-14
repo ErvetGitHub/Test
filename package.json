@@ -1,7 +1,7 @@
 {
-	"name": "muuda_seda_siin",
+	"name": "vaja-muuta",
 	"version": "1.0.0",
-	"description": "muuda_seda",
+	"description": "vaja-muuta",
 	"main": "index.js",
 	"scripts": {
 		"watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -20,6 +20,5 @@
 		"concat": "^1.0.3",
 		"npm-run-all": "^4.1.1",
 		"postcss-cli": "^4.1.1"
-
 	}
 }

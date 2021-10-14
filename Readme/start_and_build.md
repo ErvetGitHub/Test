@@ -2,14 +2,14 @@
 [Udemy video](https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274568#overview)
 #### Enne kui alustad:
 - Veendu, et oleks olemas `package.json` fail. Seal sees oluline info, et mida vaja installida npm-ga.
-  - Muuda seal ära need kus jutumärkides "vaja-muuta" kirjas on.
-#### Ava VS Code Terminal
-- Installi node_module folder ja kõik muud vajalikud seosed:  `npm i`
-   - see installib kõik seosed ja node moodulid (node mooduleid ei tarvitse siin VS Codes kohe näidata, vajadusel tee VS Code restart)
-- **Käivida dev server:** `npm run start` script
-  - Nüüd tuleb sulle url mille võid avada browseris. Ühtlasi on url-i ilmumine ka märk, et kõik õnnestus ja dev-server on edukalt käivitunud.
-- Kui vaja lõppfail serverisse saata siis enne tee sellest "build" fail. Kasuta selleks käsklust: `npm run build:css`
-  - Nüüd vaata **CSS** kausta,  seal peaks olema valmis fail.
+  - Muuda ära need väljad kus jutumärkides "vaja-muuta" kirjas on.
+#### Node Moodulite intallimine - Ava VS Code Terminal
+- Installi node_module folder ja kõik muud vajalikud seosed:  `npm i` või kui error tuleb siis `sudo npm i`
+   - see installib kõik seosed ja node moodulid (kui node_modules ei ilmu siis tee VS Code restart)
+- #### Käivida dev server: `npm run start` script
+  - Nüüd näitab Terminal url-i (nt: http://127.0.0.1:8080) mis ava browseris. Ühtlasi on url-i ilmumine ka märk, et kõik õnnestus ja dev-server script package.json failis on edukalt käivitunud.
+- Kui vaja lõppfail serverisse saata siis enne tee sellest "build" fail. Kasuta selleks käsklust: `npm run build:css`. Selleks pead avama uue Terminal akna kuna live-server või mõni muu script käib praeguses aktiivses Terminalis.
+  - Lõppfail mis lae serverisse tekib folderis: css => styel.css.
 
 ```json
 {
@@ -41,10 +41,3 @@
   }
 }
 ```
-__________________
-Git up
-- git add .
-- git commit -m "jah"   
-- git branch -M main   
-- git remote add origin https://github.com/Ervetk/test-repo.git
-- git push -u origin main    
