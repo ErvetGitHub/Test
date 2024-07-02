@@ -1,6 +1,5 @@
 <!-- @format -->
 
-SEE ON UUEM RIDA 1.0
 
 # Setting up simple build proccess
 
