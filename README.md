@@ -1,5 +1,7 @@
 <!-- @format -->
 
+SEE ON UUEM RIDA 1.0
+
 # Setting up simple build proccess
 
 [Udemy video](https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274568#overview)
